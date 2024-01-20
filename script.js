@@ -76,7 +76,7 @@ document.querySelector(".check").addEventListener("click", function () {
 document.querySelector(".again").addEventListener("click", function () {
   scretNumber = Math.trunc(Math.random() * 20 + 1);
   document.querySelector(".number").textContent = "?";
-  score = 20;
+  score = 10;
   document.querySelector(".score").textContent = score;
   document.querySelector("body").style.backgroundColor = "#222";
   document.querySelector(".number").style.width = "15rem";

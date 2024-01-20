@@ -16,7 +16,7 @@ const displayMessage = function (message) {
   document.querySelector(".message").textContent = message;
 };
 let highscore = 0;
-let score = 20;
+let score = 10;
 // document.querySelector(".number").textContent = scretNumber;
 document.querySelector(".check").addEventListener("click", function () {
   let guess = Number(document.querySelector(".guess").value);
